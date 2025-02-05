@@ -1,1 +1,9 @@
+.section_hero {
+  background-image: url("/assets/images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
+  min-height: calc(100dvh - 60px);
+  padding-top: 74px;
+}
