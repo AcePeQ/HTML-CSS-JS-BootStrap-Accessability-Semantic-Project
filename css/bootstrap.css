@@ -183,20 +183,20 @@
 
 :root,
 [data-bs-theme="light"] {
-  --bs-blue: #a3d9ff; /* Pastelowy błękit */
-  --bs-indigo: #6f42c1; /* Pozostawiam bez zmian */
-  --bs-purple: #9b72aa; /* Stonowany fiolet */
-  --bs-pink: #d98ba0; /* Delikatny róż */
-  --bs-red: #d96666; /* Ciepła czerwień */
-  --bs-orange: #e6b655; /* Ciepły bursztynowy */
-  --bs-yellow: #fde5b6; /* Jasny piaskowy */
-  --bs-green: #5c946e; /* Naturalna jasna zieleń */
-  --bs-teal: #4a772f; /* Ciemna oliwkowa zieleń */
-  --bs-cyan: #a3d9ff; /* Pastelowy błękit */
-  --bs-black: #3e3b36; /* Ciemny brąz zamiast czerni */
-  --bs-white: #f7f3e9; /* Kremowy zamiast czystej bieli */
-  --bs-gray: #8c7153; /* Ciepły szary */
-  --bs-gray-dark: #2c2925; /* Bardzo ciemny brąz */
+  --bs-blue: #a3d9ff;
+  --bs-indigo: #6f42c1;
+  --bs-purple: #9b72aa;
+  --bs-pink: #d98ba0;
+  --bs-red: #d96666;
+  --bs-orange: #e6b655;
+  --bs-yellow: #fde5b6;
+  --bs-green: #5c946e;
+  --bs-teal: #4a772f;
+  --bs-cyan: #a3d9ff;
+  --bs-black: #3e3b36;
+  --bs-white: #f7f3e9;
+  --bs-gray: #8c7153;
+  --bs-gray-dark: #2c2925;
   --bs-gray-100: #fcf8f2;
   --bs-gray-200: #f1e5d0;
   --bs-gray-300: #e0e8da;
@@ -270,6 +270,38 @@
   --bs-box-shadow-sm: 0 0.125rem 0.25rem rgba(62, 59, 54, 0.075);
   --bs-box-shadow-lg: 0 1rem 3rem rgba(62, 59, 54, 0.175);
   --bs-box-shadow-inset: inset 0 1px 2px rgba(62, 59, 54, 0.075);
+
+  --bs-white-rgb: 247, 243, 233;
+  --bs-black-rgb: 62, 59, 54;
+  --bs-gradient: linear-gradient(
+    180deg,
+    rgba(247, 243, 233, 0.15),
+    rgba(247, 243, 233, 0)
+  );
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-emphasis-color: #3e3b36;
+  --bs-emphasis-color-rgb: 62, 59, 54;
+  --bs-secondary-color: rgba(194, 165, 131, 0.75);
+  --bs-secondary-color-rgb: 194, 165, 131;
+  --bs-secondary-bg: #e9ecef;
+  --bs-secondary-bg-rgb: 233, 236, 239;
+  --bs-tertiary-color: rgba(194, 165, 131, 0.5);
+  --bs-tertiary-color-rgb: 194, 165, 131;
+  --bs-tertiary-bg: #f8f9fa;
+  --bs-tertiary-bg-rgb: 248, 249, 250;
+  --bs-heading-color: inherit;
+  --bs-link-color-rgb: 74, 119, 47;
+  --bs-link-decoration: underline;
+  --bs-link-hover-color-rgb: 44, 75, 30;
+  --bs-focus-ring-width: 0.25rem;
+  --bs-focus-ring-opacity: 0.25;
+  --bs-focus-ring-color: rgba(74, 119, 47, 0.25);
+  --bs-form-valid-color: #5c946e;
+  --bs-form-valid-border-color: #5c946e;
+  --bs-form-invalid-color: #d96666;
+  --bs-form-invalid-border-color: #d96666;
 }
 
 *,
