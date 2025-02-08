@@ -213,7 +213,7 @@
   --bs-warning: #e6b655;
   --bs-danger: #d96666;
   --bs-light: #f7f3e9;
-  --bs-dark: #3e3b36;
+  --bs-dark: rgb(62, 59, 54);
   --bs-primary-rgb: 74, 119, 47;
   --bs-secondary-rgb: 194, 165, 131;
   --bs-success-rgb: 92, 148, 110;

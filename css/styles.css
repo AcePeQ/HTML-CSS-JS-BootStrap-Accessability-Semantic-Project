@@ -12,7 +12,12 @@ h6 {
 }
 
 .section_hero {
-  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(
+      to bottom,
+      transparent,
+      rgba(0, 0, 0, 0.4),
+      rgb(247, 243, 233)
+    ),
     url("/assets/images/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,4 +25,43 @@ h6 {
 
   min-height: calc(100dvh);
   padding-top: 72px;
+}
+
+.jumpbadge-background {
+  background-image: linear-gradient(
+      110deg,
+      rgba(62, 59, 54, 0.8) 0%,
+      rgba(62, 59, 54, 0.8) 58%,
+      transparent 58%
+    ),
+    url("/assets/images/jumpbadge-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+}
+
+.jumpbadge-content {
+  width: 57%;
+}
+
+.custom-section-spacing {
+  margin: 150px auto;
+}
+
+.section-aboutus {
+  background-image: url("/assets/images/sky.jpg");
+  height: 720px;
+}
+
+.feature-icon-small {
+  width: 3rem;
+  height: 3rem;
+}
+
+.header-nav {
+  backdrop-filter: blur(12px);
+}
+
+.container-aboutus {
+  backdrop-filter: blur(2px);
 }
