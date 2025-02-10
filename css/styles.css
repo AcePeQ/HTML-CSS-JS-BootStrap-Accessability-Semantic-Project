@@ -22,9 +22,8 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
-  min-height: calc(100dvh);
-  padding-top: 72px;
+  min-height: 100dvh;
+  padding-top: 82px;
 }
 
 .jumpbadge-background {
@@ -64,4 +63,22 @@ h6 {
 
 .container-aboutus {
   backdrop-filter: blur(12px);
+}
+
+.hero-dogs-section {
+  min-height: 57dvh;
+  padding-top: 82px;
+}
+
+.dog-card.card {
+  height: 486px;
+
+  img {
+    height: 285px;
+    width: 100%;
+  }
+}
+
+.section-contact {
+  padding-top: 82px;
 }
