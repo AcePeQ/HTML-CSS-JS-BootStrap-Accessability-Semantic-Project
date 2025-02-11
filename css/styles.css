@@ -11,6 +11,10 @@ h6 {
   font-family: "Lora", "Merriweather", sans;
 }
 
+.padding-top-custom {
+  padding-top: 82px;
+}
+
 .section_hero {
   background-image: linear-gradient(
       to bottom,
@@ -23,7 +27,6 @@ h6 {
   background-size: cover;
   background-position: center;
   min-height: 100dvh;
-  padding-top: 82px;
 }
 
 .jumpbadge-background {
@@ -67,7 +70,6 @@ h6 {
 
 .hero-dogs-section {
   min-height: 57dvh;
-  padding-top: 82px;
 }
 
 .dog-card.card {
@@ -94,19 +96,16 @@ h6 {
   overflow-y: auto;
 }
 
-/* width */
 .textarea-form::-webkit-scrollbar {
   width: 10px;
   transition: all 0.4s;
 }
 
-/* Track */
 .textarea-form::-webkit-scrollbar-track {
   background: transparent;
   transition: all 0.4s;
 }
 
-/* Handle */
 .textarea-form::-webkit-scrollbar-thumb {
   background: #8c7153;
   border-radius: 4px;
@@ -114,7 +113,6 @@ h6 {
   transition: all 0.4s;
 }
 
-/* Handle on hover */
 .textarea-form::-webkit-scrollbar-thumb:hover {
   background: #72593e;
   cursor: pointer;
