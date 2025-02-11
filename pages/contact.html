@@ -43,10 +43,14 @@
       </nav>
     </header>
     <main>
-      <section class="section-contact">
-        <div class="container my-5 border border-4 py-5 px-4 rounded">
+      <section
+        class="section-contact border-bottom border-2 d-flex justify-content-center align-items-center"
+      >
+        <div
+          class="container my-5 border border-4 py-5 px-4 rounded text-light bg-dark border-secondary"
+        >
           <div class="row gap-5">
-            <div class="col-4">
+            <div class="col-4 my-auto">
               <div role="row" aria-labelledby="contact-us">
                 <div class="border-bottom">
                   <h3
@@ -59,15 +63,19 @@
                     class="d-flex justify-content-between py-3 px-3 m-0 lead fw-medium"
                   >
                     Phone number:
-                    <a class="btn-link" href="tel: +48 553 231 322"
+                    <a
+                      class="link-light link-offset-1"
+                      href="tel: +48 553 231 322"
                       >+48 553 231 322</a
                     >
                   </p>
                   <p
-                    class="d-flex justify-content-between py-3 px-3 m-0 lead fw-medium"
+                    class="d-flex justify-content-between py-3 px-3 m-0 mb-5 lead fw-medium"
                   >
                     E-mail:
-                    <a class="btn-link" href="mailto: dogsgarden@gmail.com"
+                    <a
+                      class="link-light link-offset-1"
+                      href="mailto: dogsgarden@gmail.com"
                       >dogsgarden@gmail.com</a
                     >
                   </p>
@@ -92,23 +100,23 @@
                 <fieldset>
                   <div class="row mb-3">
                     <div class="col">
-                      <label for="first_name" class="form-label"
+                      <label for="first_name" class="form-label lead"
                         >First name</label
                       >
                       <input
                         type="text"
-                        class="form-control"
+                        class="form-control bg-dark-subtle text-light"
                         id="first_name"
                         name="first_name"
                       />
                     </div>
                     <div class="col">
-                      <label for="last_name" class="form-label"
+                      <label for="last_name" class="form-label lead"
                         >Last name</label
                       >
                       <input
                         type="type"
-                        class="form-control"
+                        class="form-control bg-dark-subtle text-light"
                         id="last_name"
                         name="last_name"
                       />
@@ -117,21 +125,21 @@
 
                   <div class="row mb-3">
                     <div class="col">
-                      <label for="email" class="form-label">E-mail</label>
+                      <label for="email" class="form-label lead">E-mail</label>
                       <input
                         type="email"
-                        class="form-control"
+                        class="form-control bg-dark-subtle text-light"
                         id="email"
                         name="email"
                       />
                     </div>
                     <div class="col">
-                      <label for="phone_number" class="form-label"
+                      <label for="phone_number" class="form-label lead"
                         >Phone number</label
                       >
                       <input
                         type="tel"
-                        class="form-control"
+                        class="form-control bg-dark-subtle text-light"
                         id="phone_number"
                         name="phone_number"
                       />
@@ -140,14 +148,31 @@
 
                   <div class="row">
                     <div class="col">
-                      <label for="message" class="form-label">Message</label>
+                      <label for="message" class="form-label lead"
+                        >Message</label
+                      >
                       <textarea
-                        rows="10"
-                        class="form-control"
+                        rows="5"
+                        class="form-control textarea-form bg-dark-subtle text-light"
                         id="message"
                         name="message"
                       ></textarea>
                     </div>
+                  </div>
+
+                  <div class="d-flex justify-content-between mt-4">
+                    <button
+                      type="submit"
+                      class="btn btn-width-form btn-secondary btn-lg px-5"
+                    >
+                      Send
+                    </button>
+                    <button
+                      type="reset"
+                      class="btn btn-width-form btn-dark border border-2 btn-lg px-5"
+                    >
+                      Reset
+                    </button>
                   </div>
                 </fieldset>
               </form>
