@@ -117,3 +117,18 @@ h6 {
   background: #72593e;
   cursor: pointer;
 }
+
+.img-custom {
+  position: absolute;
+  content: "";
+  clip-path: circle(37% at 50% 50%);
+}
+
+.img-custom-1 {
+  top: -50px;
+  left: 125px;
+}
+.img-custom-2 {
+  top: 0;
+  left: -100px;
+}
