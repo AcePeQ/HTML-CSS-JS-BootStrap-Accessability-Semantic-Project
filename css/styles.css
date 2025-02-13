@@ -15,6 +15,14 @@ h6 {
   padding-top: 82px;
 }
 
+header {
+  z-index: 10000 !important;
+}
+
+p {
+  text-wrap: pretty;
+}
+
 .section_hero {
   background-image: linear-gradient(
       to bottom,
@@ -136,5 +144,35 @@ h6 {
 .section_whoweare {
   img {
     max-height: 238px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .jumpbadge-background {
+    background-image: linear-gradient(
+        110deg,
+        rgba(62, 59, 54, 0.8) 0%,
+        rgba(62, 59, 54, 0.8) 100%
+      ),
+      url("/assets/images/jumpbadge-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+  }
+
+  .jumpbadge-content {
+    width: 100%;
+  }
+
+  .section-aboutus {
+    height: 920px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .section-aboutus {
+    background-image: url("/assets/images/sky.jpg");
+    height: 100%;
+    padding: 50px 0;
   }
 }
