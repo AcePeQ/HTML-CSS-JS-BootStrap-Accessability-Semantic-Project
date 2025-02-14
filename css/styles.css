@@ -147,6 +147,14 @@ p {
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .container-contact {
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-radius: 0 !important;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .jumpbadge-background {
     background-image: linear-gradient(
@@ -173,6 +181,62 @@ p {
   .section-aboutus {
     background-image: url("/assets/images/sky.jpg");
     height: 100%;
-    padding: 50px 0;
+    padding: 0 0;
+  }
+
+  .section_why_we_do {
+    padding-inline: 0 !important;
+  }
+
+  .jumpbadge-background {
+    border-radius: 0 !important;
+  }
+
+  .container-aboutus {
+    margin-inline: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .section-aboutus {
+    background-image: url("/assets/images/sky.jpg");
+    height: 100%;
+    padding: 0 0;
+  }
+
+  .section_why_we_do {
+    padding-inline: 0 !important;
+  }
+
+  .jumpbadge-background {
+    border-radius: 0 !important;
+  }
+
+  .container-aboutus {
+    margin-inline: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  .header-nav {
+    padding: 0.75rem !important;
+  }
+
+  .padding-top-custom {
+    padding-top: 74px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .header-nav {
+    .nav-item {
+      font-size: 1.1rem !important;
+    }
+  }
+
+  .padding-top-custom {
+    padding-top: 70.39px;
   }
 }
