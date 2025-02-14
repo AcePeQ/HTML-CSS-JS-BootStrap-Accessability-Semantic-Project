@@ -81,10 +81,11 @@ p {
 }
 
 .dog-card.card {
-  height: 486px;
+  height: 100%;
 
   img {
-    height: 285px;
+    min-height: 285px;
+    max-height: 300px;
     width: 100%;
   }
 }
@@ -174,6 +175,13 @@ p {
 
   .section-aboutus {
     height: 920px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dog-card.card {
+    max-width: 367.5px;
+    margin: 0 auto;
   }
 }
 
