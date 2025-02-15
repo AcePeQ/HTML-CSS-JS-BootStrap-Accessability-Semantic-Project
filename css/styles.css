@@ -144,7 +144,13 @@ p {
 
 .section_whoweare {
   img {
+    min-height: 238px;
     max-height: 238px;
+  }
+
+  .card {
+    max-width: 22.5rem !important;
+    margin: 0 auto;
   }
 }
 
