@@ -182,6 +182,9 @@ p {
   .section-aboutus {
     height: 920px;
   }
+  .row-ourstory {
+    flex-direction: column-reverse;
+  }
 }
 
 @media screen and (max-width: 768px) {
